@@ -1,0 +1,126 @@
+.intro-content-text{
+    width: 1084px;
+}
+
+.intro-content-text p,
+.intro-span{
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 1.2;
+    padding-top: 30px;
+}
+
+.intro-content-text p span{
+    color: #F16855;
+}
+
+.intro-socials{
+    margin-top: 40px;
+}
+
+
+.intro-socials img{
+    margin-right: 20px;
+}
+.work-img-1,
+.work-img-2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.work-img-1{
+    align-items: flex-start;
+}
+
+.work-img-2{
+    align-items: flex-end;
+}
+.work-img-1 .img-long,
+.work-img-2 .img-long{
+    object-fit: cover;
+    width: 596px;
+    height: 639px;
+}
+
+.work-img-1 .img-short,
+.work-img-2 .img-short{
+    object-fit: cover;
+     width: 596px;
+    height: 563px;
+}
+
+.my-services,
+.my-tools{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-services div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-services div span{
+    padding-left: 20px;
+}
+
+.article{
+    padding:50px 0 50px 80px;
+    position: relative;
+}
+
+.article .arrow{
+    position: absolute;
+    padding-top: 50px;
+    padding-right: 80px;
+    top: 0;
+    right: 0;
+}
+.article-flex,
+.contact-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.article-flex div{
+    margin-left: 30px;
+}
+.article-flex img{
+    width: 350px;
+    height: 233px;
+    object-fit: cover;
+}
+
+.article-flex div h5{
+    text-transform: capitalize;
+    font-size: 16px ;
+}
+
+.article-flex div p{
+    font-size: 20px;
+}
+.contact-text{
+    line-height:52px;
+    height: 156px;
+    width: 550px;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px
+}
+
+.email-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-div a{
+    text-decoration: underline;
+}
+.email-div img{
+    margin-left: 11px;
+}

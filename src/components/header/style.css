@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap');
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 40px;
+     background-color: rgba(255,240,237,0.26);
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+ul li{
+    margin-left: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+ul li::after{
+    content: '';
+    display: block;
+    position: absolute;
+     background-color: rgba(255,240,237,0.26);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    bottom: -10px;
+}
+
+ul li:hover{
+     color: rgba(241, 104, 85, 1);
+}
+
+ul li:hover::after{
+     background: rgba(241, 104, 85, 1) !important;
+}
+a{
+    color: #303030;
+    font-size: 18px;
+}
+
+.active{
+    color: rgba(241, 104, 85, 1);
+    
+}
+
+.active::after{
+    background: rgba(241, 104, 85, 1);
+}
+h4{
+    font-family: 'Leckerli One', cursive;
+    font-size: 20px;
+}

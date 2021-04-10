@@ -1,0 +1,41 @@
+
+.about-content-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-text{
+   width:692px;
+}
+
+.about-text p{
+    margin-bottom: 40px;
+    line-height: 2;
+}
+
+.about-img{
+    position: relative;
+}
+
+.about-img .half-circle{
+    position: absolute;
+    top: 2%;
+}
+
+.jobs-div div{
+    margin-bottom: 40px;
+}
+
+.hire-resume{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.hire-resume p{
+    margin-left: 30px;
+    color: rgba(241, 104, 85, 1);
+    font-weight: bold;
+
+}
