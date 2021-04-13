@@ -10,8 +10,8 @@
 }
 
 .about-text p{
-    margin-bottom: 40px;
-    line-height: 2;
+    margin-bottom: 50px;
+    line-height: 2.2;
 }
 
 .about-img{
@@ -23,19 +23,24 @@
     top: 2%;
 }
 
-.jobs-div div{
-    margin-bottom: 40px;
+.job-div{
+    margin-top: -30px;
+}
+
+.job-div div{
+    margin-bottom: px;
 }
 
 .hire-resume{
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    margin-top:60px ;
 }
 
 .hire-resume p{
-    margin-left: 30px;
+    margin-left: 40px;
     color: rgba(241, 104, 85, 1);
-    font-weight: bold;
+    font-weight: 400;
 
 }

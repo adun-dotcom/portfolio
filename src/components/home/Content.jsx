@@ -9,6 +9,7 @@ import MyServices from './Services'
 import MyTools from './Tools'
 import MyArticle from './Articles'
 import MyContact from './Contact'
+import MyIcons from '../icon-folder/Icons'
 
 
 function Body() {
@@ -23,12 +24,12 @@ function Body() {
           </p>
           <p>
             Currently living in Ontario, Canada and solving meaningful payment
-            challenges at <span className="intro-span">operapay.com.</span>
+            challenges at <a className="intro-span" href="https://opayweb.com/">
+               operapay.com.
+            </a>
           </p>
           <div className="intro-socials">
-            <img src={linkedin} alt="" />
-            <img src={twitter} alt="" />
-            <img src={youtube} alt="" />
+            <MyIcons />
           </div>
         </div>
       </IntroSection>

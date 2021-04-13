@@ -13,15 +13,15 @@ function MyContact() {
             Let me know if you want to talk about a potential collaboration. I'm
             available for freelance work.
           </p>
-          <Button clsName="chat-btn" btnText="Let's Chat" />
         </div>
         <div className="email-div">
           <Link to="/">
-            <p>olayinkaodetola5@gmail.com</p>
+            <p className="hover-text">olayinkaodetola5@gmail.com</p>
           </Link>
           <img src={Squares} alt="" />
         </div>
       </div>
+      <Button clsName="chat-btn" btnText="Let's Chat" />
     </div>
   )
 }

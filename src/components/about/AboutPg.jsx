@@ -4,6 +4,7 @@ import IntroSection from '../intro'
 import Circle from '../../assets/Ellipse.svg'
 import HalfCircle from '../../assets/half-shape.svg'
 import Button from '../button'
+import AboutImg from '../../assets/Mask Group.png'
 
 
 function AboutMe(){
@@ -36,15 +37,14 @@ function AboutMe(){
             </div>
             {/* about image */}
             <div className="about-img">
-              <img className="half-circle" src={HalfCircle} alt="" />
-              <img src={Circle} alt="" />
+              <img src={AboutImg} alt="" />
             </div>
           </div>
         </IntroSection>
         <div className="container colored-bg">
-          <h5>Jobs</h5>
-          <hr />
           <div className="job-div">
+            <h5>Jobs</h5>
+            <hr />
             <div>
               <h3>Currently</h3>
               <p>Product Designer at OPay, Nigeria</p>
@@ -55,7 +55,9 @@ function AboutMe(){
             </div>
             <div className="hire-resume">
               <Button btnText="Hire Me" clsName="hire-btn" />
-              <p>Download Resume </p>
+              <a href="https://docs.google.com/document/d/1wXYDLJ1aMZ6kEvN8Uhzy0AgmQfh-zHF_CGXNnK88jHo/edit?usp=sharing">
+                <p>Resume </p>
+              </a>
             </div>
           </div>
         </div>

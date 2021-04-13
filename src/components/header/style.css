@@ -4,7 +4,8 @@
     justify-content: space-between;
     align-items: center;
     min-height: 40px;
-     background-color: rgba(255,240,237,0.26);
+     background-color: rgba(255,240,237,0.18);
+     padding: 40px 80px;
 }
 
 ul{
@@ -38,8 +39,9 @@ ul li:hover{
 ul li:hover::after{
      background: rgba(241, 104, 85, 1) !important;
 }
+
 a{
-    color: #303030;
+    color: #727376;
     font-size: 18px;
 }
 
@@ -51,7 +53,10 @@ a{
 .active::after{
     background: rgba(241, 104, 85, 1);
 }
-h4{
+
+.nav-logo{
     font-family: 'Leckerli One', cursive;
     font-size: 20px;
+    color: #F16855;
+    font-weight: 400;
 }

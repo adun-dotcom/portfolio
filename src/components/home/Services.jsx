@@ -6,7 +6,7 @@ import Testing from '../../assets/testing.png'
 
 function MyServices(){
     return (
-      <div className="container colored-bg">
+      <div className="container colored-bg services">
         <h5>Services</h5>
         <hr />
         <h3>What I love to do</h3>

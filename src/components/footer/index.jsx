@@ -1,16 +1,12 @@
 import React from 'react'
 import './style.css'
-import linkedin from '../../assets/linkedin.svg'
-import twitter from '../../assets/twitter.svg'
-import youtube from '../../assets/youtube.svg'
+import MyIcons from '../icon-folder/Icons'
 function Footer(){
     return (
-      <footer className="container colored-bg">
+      <footer className="colored-bg">
         <p>Copyright @ 2021 Olayinka Fadare</p>
         <div className="intro-socials">
-          <img src={linkedin} alt="" />
-          <img src={twitter} alt="" />
-          <img src={youtube} alt="" />
+          <MyIcons/>
         </div>
       </footer>
     )
