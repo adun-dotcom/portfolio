@@ -39,3 +39,21 @@
     right:5%;
 }
 
+@media (max-width:768px){
+   .intro-content .dot-2{
+    top: -30px;
+    left:35% ;
+}
+    .dot-1,
+    .dot-3,
+    .cross-2{
+       display: none;
+}
+
+.cross-1{
+    left: 90%;
+    top: 130%;
+}
+
+  
+}

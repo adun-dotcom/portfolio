@@ -1,15 +1,15 @@
 import React from 'react'
 import './style.css'
 import IntroSection from '../intro'
-import Circle from '../../assets/Ellipse.svg'
-import HalfCircle from '../../assets/half-shape.svg'
 import Button from '../button'
 import AboutImg from '../../assets/Mask Group.png'
+import Nav from '../header'
 
 
 function AboutMe(){
     return (
       <div>
+        <Nav active="/about" />
         <IntroSection>
           <div className="about-content-div">
             <div className="about-text">

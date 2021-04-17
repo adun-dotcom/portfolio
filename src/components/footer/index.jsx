@@ -4,10 +4,10 @@ import MyIcons from '../icon-folder/Icons'
 function Footer(){
     return (
       <footer className="colored-bg">
-        <p>Copyright @ 2021 Olayinka Fadare</p>
         <div className="intro-socials">
-          <MyIcons/>
+          <MyIcons />
         </div>
+        <p>Copyright @ 2021 Olayinka Fadare</p>
       </footer>
     )
 }

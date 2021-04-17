@@ -13,9 +13,27 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    transition: 0.3s;
 }
 
 .icons .fab:hover{
+    background-color: rgba(255,240,237,0.18);
     color:#F16855;
+}
 
+@media (max-width:768px){
+.icons .fab{
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    background-color: #4B4B4D;
+    color: #FFF0ED ;
+    border-radius: 50%;
+    margin-right: 25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+  
+}
 }

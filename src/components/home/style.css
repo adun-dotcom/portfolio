@@ -1,6 +1,9 @@
 .intro-content-text{
+    max-width: 100%;
     width: 1084px;
 }
+
+
 
 .intro-content-text p{
     color: #4B4B4D;
@@ -9,7 +12,7 @@
 .intro-content-text p,
 .intro-span{
     font-size: 45px;
-    font-weight: 900;
+    font-weight: 700;
     line-height: 1.35em;
     padding-top: 30px;
 }
@@ -158,6 +161,7 @@
 
 .article-flex div p{
     font-size: 20px;
+    font-weight: 500;
 }
 
 .contact-flex{
@@ -193,4 +197,155 @@
 }
 .email-div img{
     margin-left: 11px;
+}
+
+@media (max-width:768px){
+    .intro-content-text{
+    max-width: 100%;
+    width: 1084px;
+}
+
+    .intro-content-text p,
+.intro-span{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.work-img-1,
+.work-img-2{
+    display: block;
+    
+}
+
+.work-img-1{
+    align-items: flex-start;
+}
+
+.work-img-2{
+    align-items: flex-end;
+}
+.work-img-1 .img-long,
+.work-img-2 .img-long{
+    object-fit: cover;
+    margin-bottom: 30px;
+    width: 100%;
+    height:100%;
+}
+
+.work-img-1 .img-short,
+.work-img-2 .img-short{
+    object-fit: cover;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.my-services
+{
+    display: block;
+    
+}
+
+.my-services div{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.my-services div:nth-child(4){
+    margin-bottom: 0;
+}
+.my-services div span{
+    padding-left: 20px;
+}
+
+.my-tools{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.my-tools .tools-1,
+.my-tools .tools-2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tools-1 div,
+.tools-2 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+}
+
+.tools-1 div span,
+.tools-2 div span{
+    font-size: 18px;
+}
+
+.tools-div img{
+    width: 100%;
+    height: 100px;
+}
+
+.tools-1 div .zeplin{
+   width: 100%;
+
+   margin-bottom: 20px;
+}
+
+.article{
+    padding:80px 40px;
+    position: relative;
+}
+
+.article .arrow{
+    display: none;
+}
+
+.article-flex{
+    display: block;
+}
+
+.article-flex div{
+    margin-left: 0px;
+}
+.article-flex img{
+
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.article-flex div h5{
+    text-transform: capitalize;
+    font-size: 16px ;
+    padding-bottom: 20px;
+}
+
+.article-flex div p{
+    font-size: 20px;
+}
+
+.email-div{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
 }

@@ -10,6 +10,8 @@
 body {
   font-family: 'Red Hat Display', sans-serif;
   color: #4B4B4D;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 

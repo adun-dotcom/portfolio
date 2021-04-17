@@ -10,11 +10,13 @@ import MyTools from './Tools'
 import MyArticle from './Articles'
 import MyContact from './Contact'
 import MyIcons from '../icon-folder/Icons'
+import Nav from '../header'
 
 
 function Body() {
   return (
     <>
+      <Nav active="/" />
       <IntroSection>
         <div className="intro-content-text">
           <img src={hand} alt="" />
@@ -24,8 +26,9 @@ function Body() {
           </p>
           <p>
             Currently living in Ontario, Canada and solving meaningful payment
-            challenges at <a className="intro-span" href="https://opayweb.com/">
-               operapay.com.
+            challenges at{' '}
+            <a className="intro-span" href="https://opayweb.com/">
+              operapay.com.
             </a>
           </p>
           <div className="intro-socials">
