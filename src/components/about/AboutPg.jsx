@@ -1,8 +1,8 @@
 import React from 'react'
 import './style.css'
 import IntroSection from '../intro'
-import Button from '../button'
-import AboutImg from '../../assets/Mask Group.png'
+
+
 import Nav from '../header'
 
 
@@ -36,9 +36,7 @@ function AboutMe(){
               </p>
             </div>
             {/* about image */}
-            <div className="about-img">
-              <img src={AboutImg} alt="" />
-            </div>
+         
           </div>
         </IntroSection>
         <div className="container colored-bg">
@@ -54,7 +52,7 @@ function AboutMe(){
               <p>UI/UX Designer at Terragon Group, Nigeria</p>
             </div>
             <div className="hire-resume">
-              <Button btnText="Hire Me" clsName="hire-btn" />
+          
               <a href="https://docs.google.com/document/d/1wXYDLJ1aMZ6kEvN8Uhzy0AgmQfh-zHF_CGXNnK88jHo/edit?usp=sharing">
                 <p>Resume </p>
               </a>

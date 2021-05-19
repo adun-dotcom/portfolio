@@ -1,27 +1,4 @@
 
-.about-content-div{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.about-text{
-   width:692px;
-}
-
-.about-text p{
-    margin-bottom: 50px;
-    line-height: 2.2;
-}
-
-.about-img{
-    position: relative;
-}
-
-.about-img .half-circle{
-    position: absolute;
-    top: 2%;
-}
 
 .job-div{
     margin-top: -30px;

@@ -9,7 +9,7 @@ import pinkCross from '../../assets/pink-cross.svg'
 
 function IntroSection({children}){
     return (
-      <div className="container intro-section">
+      <div className=" intro-section">
         <img className="pink-dot dot-1" src={pinkDot} alt="" />
         <div className="intro-content">
           <img className="pink-dot dot-2" src={pinkDot} alt="" />

@@ -1,74 +1,71 @@
 import React from 'react'
-import Figma from '../../assets/figma.svg'
-import Adobe from '../../assets/adobe.svg'
-import Balsamiq from '../../assets/balsamiq.svg'
-import Invision from '../../assets/invision.svg'
-import Lookback from '../../assets/lookback.svg'
-import Marvel from '../../assets/marvel.svg'
-import Miro from '../../assets/miro.svg'
-import Notion from '../../assets/notion.svg'
-import Principle from '../../assets/principle.svg'
-import Sketch from '../../assets/sketch.svg'
-import Whimsical from '../../assets/whimsical.svg'
-import Zeplin from '../../assets/zeplin.svg'
+import ReactLogo from '../../assets/react.png'
+import Netlify from '../../assets/netlify.png'
+import Css from '../../assets/css.png'
+import Html from '../../assets/html.png'
+import Js from '../../assets/java.png'
+import codepen from '../../assets/codepen.png'
+import Mongo from '../../assets/mongo.png'
+import Sass from '../../assets/sass.png'
+import Git from '../../assets/git.png'
+import Jquery from '../../assets/jquery.png'
+import Vscode from '../../assets/vscode.png'
+import Api from '../../assets/api.png'
 function MyTools() {
   return (
     <div className="container colored-bg">
-      <h5>Tools</h5>
+      <h5>Check out my</h5>
       <hr />
-      <h3>Tools I work with</h3>
-      <div className="my-tools">
-        <div className="tools-1">
-          <div>
-            <img src={Marvel} alt="" />
-            <span>Marvel App</span>
-          </div>
-          <div>
-            <img src={Miro} alt="" />
-            <span>Miro</span>
-          </div>
-          <div>
-            <img src={Sketch} alt="" />
-            <span>Sketch</span>
-          </div>
-          <div>
-            <img src={Invision} alt="" />
-            <span>Invision</span>
-          </div>
-          <div>
-            <img className="zeplin" src={Zeplin} alt="" />
-            <span>Zeplin</span>
-          </div>
-          <div>
-            <img src={Whimsical} alt="" />
-            <span>Whimsical</span>
-          </div>
+      <h3>SKILLS</h3>
+      <div className="my-tools ">
+        <div>
+          <img src={Html} alt="" />
+          <span>HTML</span>
         </div>
-        <div className="tools-2">
-          <div>
-            <img src={Figma} alt="" />
-            <span>Figma</span>
-          </div>
-          <div>
-            <img src={Notion} alt="" />
-            <span>Notion</span>
-          </div>
-          <div>
-            <img src={Adobe} alt="" />
-            <span>Adobe</span>
-          </div>
-          <div>
-            <img src={Principle} alt="" />
-            <span>Principle</span>
-          </div>
-          <div>
-            <img src={Lookback} alt="" />
-            <span>Lookback</span>
-          </div>
-          <div>
-            <img src={Balsamiq} alt="" />
-            <span>Balsamiq</span>
-          </div>
+        <div>
+          <img src={Css} alt="" />
+          <span>CSS</span>
+        </div>
+        <div>
+          <img src={Sass} alt="" />
+          <span>SASS</span>
+        </div>
+        <div>
+          <img src={Js} alt="" />
+          <span>Javascript</span>
+        </div>
+        <div>
+          <img src={ReactLogo} alt="" />
+          <span>React</span>
+        </div>
+        <div>
+          <img src={Mongo} alt="" />
+          <span>MongoDB</span>
+        </div>
+        <div>
+          <img src={Api} alt="" />
+          <span>REST API</span>
+        </div>
+        <div>
+          <img src={Jquery} alt="" />
+          <span>Jquery</span>
+        </div>
+        <div>
+          <img src={Git} alt="" />
+          <span>Git</span>
+        </div>
+        <div>
+          <img src={Vscode} alt="" />
+          <span>Vscode</span>
+        </div>
+        <div>
+          <img src={Netlify} alt="" />
+          <span>Netlify</span>
+        </div>
+
+        <div>
+          <img src={codepen} alt="" />
+          <span>Codepen</span>
         </div>
       </div>
     </div>

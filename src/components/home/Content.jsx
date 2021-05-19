@@ -1,45 +1,44 @@
 import React from 'react'
 import hand from '../../assets/hand.svg'
-import linkedin from '../../assets/linkedin.svg'
-import twitter from '../../assets/twitter.svg'
-import youtube from '../../assets/youtube.svg'
+
 import IntroSection from '../intro/index'
 import MyWork from './Work'
-import MyServices from './Services'
 import MyTools from './Tools'
-import MyArticle from './Articles'
+
 import MyContact from './Contact'
 import MyIcons from '../icon-folder/Icons'
 import Nav from '../header'
-
+import AboutImg from '../../assets/adun.jpg'
 
 function Body() {
   return (
     <>
       <Nav active="/" />
       <IntroSection>
-        <div className="intro-content-text">
-          <img src={hand} alt="" />
-          <p>
-            I'm Yinka; a Product Designer with over 3 years experience of
-            solving problems with user centric design.
-          </p>
-          <p>
-            Currently living in Ontario, Canada and solving meaningful payment
-            challenges at{' '}
-            <a className="intro-span" href="https://opayweb.com/">
-              operapay.com.
-            </a>
-          </p>
-          <div className="intro-socials">
-            <MyIcons />
+        <div className="about-content-div">
+          <div className="about-text">
+            <img src={hand} alt="" />
+            <p>
+              I'm Adunola, a <span>Frontend Developer</span> with a keen eye for
+              design. I'm very passionate about aesthetics and user experience.
+            </p>
+            <p>
+              I enjoy taking static designs and turning them into efficient
+              applications. I also love the logic and structure of coding and
+              always strive to write elegant and efficient code whether it be
+              <span>HTML</span>, <span>CSS</span> or <span>React.js</span>
+            </p>
+            <div className="intro-socials">
+              <MyIcons />
+            </div>
+          </div>
+          <div className="about-img">
+            <img src={AboutImg} alt="" />
           </div>
         </div>
       </IntroSection>
       <MyWork />
-      <MyServices />
       <MyTools />
-      <MyArticle />
       <MyContact />
     </>
   )
