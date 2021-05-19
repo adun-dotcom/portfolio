@@ -7,7 +7,7 @@ function Footer(){
         <div className="intro-socials">
           <MyIcons />
         </div>
-        <p>Copyright @ 2021 Olayinka Fadare</p>
+        <p>Copyright @ 2021 Adunola Odetola</p>
       </footer>
     )
 }
