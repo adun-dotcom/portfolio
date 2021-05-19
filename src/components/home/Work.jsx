@@ -30,8 +30,8 @@ function MyWork(){
               </li>
             </ul>
             <span className="project-links">
-              <a href="https://learn-design.netlify.app/">Live</a>
-              <a href="https://github.com/adun-dotcom/e-learning-design-app">
+              <a target="_blank" href="https://learn-design.netlify.app/" >Live</a>
+              <a target="_blank" href="https://github.com/adun-dotcom/e-learning-design-app">
                 Repo
               </a>
             </span>
@@ -55,8 +55,8 @@ function MyWork(){
               <li>Users can also search for movie of their choice</li>
             </ul>
             <span className="project-links">
-              <a href="https://my-trailer-app.netlify.app/">Live</a>
-              <a href="https://github.com/adun-dotcom/my-movie-app">Repo</a>
+              <a target="_blank" href="https://my-trailer-app.netlify.app/">Live</a>
+              <a target="_blank" href="https://github.com/adun-dotcom/my-movie-app">Repo</a>
             </span>
           </div>
         </div>
@@ -71,8 +71,8 @@ function MyWork(){
               <li>Used React to mimic google stadia home page</li>
             </ul>
             <span className="project-links">
-              <a href="https://stadia-react-app.netlify.app/">Live</a>
-              <a href="https://github.com/adun-dotcom/stadia-game-app">Repo</a>
+              <a target="_blank" href="https://stadia-react-app.netlify.app/">Live</a>
+              <a target="_blank" href="https://github.com/adun-dotcom/stadia-game-app">Repo</a>
             </span>
           </div>
         </div>
@@ -87,7 +87,7 @@ function MyWork(){
             <ul>
               <li>
                 This app fetches data (pictures) directly from{' '}
-                <a href="https://unsplash.com/">Unsplash.com</a>
+                <a target="_blank" href="https://unsplash.com/">Unsplash.com</a>
               </li>
               <li>
                 Users can search queries in the search box and get result.
@@ -95,8 +95,8 @@ function MyWork(){
               <li>The page is a mimic of the unsplash se</li>
             </ul>
             <span className="project-links">
-              <a href="https://api-from-unsplash.netlify.app/">Live</a>
-              <a href="https://github.com/adun-dotcom/Unsplash-API-Fetch">
+              <a target="_blank" href="https://api-from-unsplash.netlify.app/">Live</a>
+              <a target="_blank" href="https://github.com/adun-dotcom/Unsplash-API-Fetch">
                 Repo
               </a>
             </span>
