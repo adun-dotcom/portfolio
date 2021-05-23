@@ -25,8 +25,8 @@ function Body() {
             <p>
               I enjoy taking static designs and turning them into efficient
               applications. I also love the logic and structure of coding and
-              always strive to write elegant and efficient code whether it be
-              <span>HTML</span>, <span>CSS</span> or <span>React.js</span>
+              always strive to write elegant and efficient code whether it be 
+              <span> HTML</span>, <span>CSS</span> or <span>React.js</span>
             </p>
             <div className="intro-socials">
               <MyIcons />

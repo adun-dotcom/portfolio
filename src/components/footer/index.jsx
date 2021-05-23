@@ -3,7 +3,7 @@ import './style.css'
 import MyIcons from '../icon-folder/Icons'
 function Footer(){
     return (
-      <footer className="colored-bg">
+      <footer className=" colored-bg">
         <div className="intro-socials">
           <MyIcons />
         </div>

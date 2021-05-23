@@ -1,4 +1,4 @@
-.container{
+.wrapper{
   padding: 100px 80px;
   max-width: 100%;
 }
@@ -46,8 +46,21 @@ p{
   color:#727376;
 }
 
+@media (max-width:1024px){
+  .wrapper{
+    padding: 80px 60px;
+  }
+}
+
 @media (max-width:768px){
-  .container{
+  .wrapper{
     padding: 80px 40px;
+  }
+}
+
+
+@media (max-width:420px){
+  .wrapper{
+    padding: 50px 10px;
   }
 }

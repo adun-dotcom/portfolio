@@ -3,8 +3,7 @@ footer{
     justify-content: space-between;
     flex-direction: row-reverse;
     align-items: center;
-    padding: 40px 80px;
-    
+    padding:50px 80px;
 }
 
 footer p{
@@ -16,11 +15,28 @@ footer p{
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
-        padding: 50px 40px;
     }
 
     footer p{
         padding: 40px 0;
     }
 
+}
+
+@media (max-width:1024px){
+  footer{
+    padding: 50px 60px;
+  }
+}
+
+@media (max-width:768px){
+  footer{
+    padding: 50px 40px;
+  }
+}
+
+@media (max-width:420px){
+  footer{
+    padding: 50px 10px;
+  }
 }

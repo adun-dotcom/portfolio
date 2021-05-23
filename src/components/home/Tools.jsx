@@ -13,7 +13,7 @@ import Vscode from '../../assets/vscode.png'
 import Api from '../../assets/api.png'
 function MyTools() {
   return (
-    <div className="container colored-bg">
+    <div className="wrapper colored-bg">
       <h5>Check out my</h5>
       <hr />
       <h3>SKILLS</h3>

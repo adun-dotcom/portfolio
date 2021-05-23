@@ -10,9 +10,8 @@
 
 body {
   font-family: 'PT Sans', sans-serif !important;
-  width: 100%;
-  overflow-x: hidden ;
-  margin: 0px ;
+  max-width: 100%;
+  margin: 0 ;
   padding: 0 ;
 }
 

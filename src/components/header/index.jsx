@@ -11,7 +11,7 @@ function Nav(){
   
 //   }
     return (
-      <nav className="navbar">
+      <nav className="mynav">
         <a href="/">
           <h4 className="nav-logo">Adunola.js</h4>
         </a>

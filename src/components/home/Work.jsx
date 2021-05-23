@@ -8,7 +8,7 @@ import Unsplash from '../../assets/unsplash.png'
 
 function MyWork(){
     return (
-      <div id="work" className=" work-div">
+      <div id="work" className="wrapper work-div">
         <h5>Take a look at my</h5>
         <hr />
         <h3>Projects</h3>

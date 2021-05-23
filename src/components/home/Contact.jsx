@@ -3,7 +3,7 @@ import {AiOutlineMail} from 'react-icons/ai'
 
 function MyContact() {
   return (
-    <div className="container colored-bg">
+    <div className="wrapper colored-bg">
       <h5>Say Hello</h5>
       <hr />
       
@@ -16,6 +16,7 @@ function MyContact() {
       <a className="resume-btn" target="_blank" href="mailto: aduntobi7@gmail.com?subject=my email">
        <AiOutlineMail size={16}/> Contact me
       </a>
+      <p className="email-p">aduntobi7@gmail.com</p>
     </div>
   )
 }
