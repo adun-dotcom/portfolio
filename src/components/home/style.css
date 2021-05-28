@@ -53,6 +53,20 @@
     margin-bottom: 40px;
 }
 
+.projects-sect{
+    margin-bottom: 70px;
+} 
+.project-type{
+   margin-top: 40px;
+   font-weight: 700;
+   font-size: 28px !important;
+}
+
+.project-summary{
+    color: #F16855 !important;
+    padding-bottom:20px ;
+}
+
 .work-img {
     display: flex;
     justify-content: space-between;
@@ -167,6 +181,7 @@
     justify-content: start;
     width: 900px;
 }
+
 
 .work-img {
     display: flex;

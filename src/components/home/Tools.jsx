@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import ReactLogo from '../../assets/react.png'
 import Netlify from '../../assets/netlify.png'
 import Css from '../../assets/css.png'
@@ -11,10 +11,16 @@ import Git from '../../assets/git.png'
 import Jquery from '../../assets/jquery.png'
 import Vscode from '../../assets/vscode.png'
 import Api from '../../assets/api.png'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 function MyTools() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, [])
   return (
-    <div className="wrapper colored-bg">
-      <h5>Check out my</h5>
+    <div data-aos="fade-up" className="wrapper colored-bg">
+      <h5 data-aos="fade-right">Check out my</h5>
       <hr />
       <h3>SKILLS</h3>
       <div className="my-tools ">
