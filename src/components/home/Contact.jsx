@@ -26,6 +26,7 @@ function MyContact() {
         <AiOutlineMail size={16} /> Contact me
       </a>
       <p className="email-p">aduntobi7@gmail.com</p>
+      
     </div>
   )
 }
