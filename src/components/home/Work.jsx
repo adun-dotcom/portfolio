@@ -5,6 +5,7 @@ import 'aos/dist/aos.css'
 import PersonalProjects from './PersonalProjects'
 import CloneProject from './CloneProject'
 import Learn from '../../assets/learn.png'
+import ClientProject from './ClientProject'
 
 function MyWork() {
   useEffect(() => {
@@ -60,6 +61,7 @@ function MyWork() {
         </div>
       </div>
       <PersonalProjects />
+      <ClientProject/>
       <CloneProject />
     </div>
   )
