@@ -21,7 +21,7 @@ function MyContact() {
       <a
         className="resume-btn"
         target="_blank"
-        href="mailto: aduntobi7@gmail.com?subject=my email"
+        href="mailto: aduntobi7@gmail.com"
       >
         <AiOutlineMail size={16} /> Contact me
       </a>
