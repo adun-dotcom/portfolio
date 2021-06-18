@@ -8,7 +8,7 @@ import codepen from '../../assets/codepen.png'
 import Mongo from '../../assets/mongo.png'
 import Sass from '../../assets/sass.png'
 import Git from '../../assets/git.png'
-import Jquery from '../../assets/jquery.png'
+import NodeJs from '../../assets/nodejs.png'
 import Vscode from '../../assets/vscode.png'
 import Api from '../../assets/api.png'
 import Aos from 'aos'
@@ -45,16 +45,16 @@ function MyTools() {
           <span>React</span>
         </div>
         <div>
+          <img src={NodeJs} alt="" />
+          <span>NodeJs</span>
+        </div>
+        <div>
           <img src={Mongo} alt="" />
           <span>MongoDB</span>
         </div>
         <div>
           <img src={Api} alt="" />
           <span>REST API</span>
-        </div>
-        <div>
-          <img src={Jquery} alt="" />
-          <span>Jquery</span>
         </div>
         <div>
           <img src={Git} alt="" />
