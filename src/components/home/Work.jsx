@@ -4,7 +4,7 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 import PersonalProjects from './PersonalProjects'
 import CloneProject from './CloneProject'
-import Learn from '../../assets/learn.png'
+import Quabbly from '../../assets/quabbly.png'
 import ClientProject from './ClientProject'
 
 function MyWork() {
@@ -17,45 +17,33 @@ function MyWork() {
       <hr />
       <h3>Projects</h3>
       <div className="projects-sect">
-        <p className="project-type">Current Project</p>
-        <p data-aos="fade-left" className="project-summary">
-          This app is currently under construction but you can check it out on a
-          desktop to view its progress.
-        </p>
+        <p className="project-type">Featured Project</p>
         <div data-aos="fade-up" className="work-img mb-5">
-          <img src={Learn} alt="" />
+          <img src={Quabbly} alt="" />
           <div>
-            <h4>Learn Design</h4>
+            <h4>Quabbly INC</h4>
             <p>
-              Technologies Used: <span> React</span>, <span>REST API</span>,
-              <span>Express</span>, <span>MongoDB</span>
+              Technologies Used: <span> React</span>, <span> Next JS</span>,
+              <span> Styled Components</span>,<span> Angular</span>
             </p>
             <ul>
               <li>
-                I am currently working with a team of 2 UI/UX Designers and a
-                Data Scientist to build a one-stop design app that aggregates design
-                courses from well known e-learning platforms like Udemy,
-                Cousera, etc for prospective designers.
+              I was the sole frontend developer on the quabbly website for this early stage startup. My work included building and updating new features using next js and react.
+
               </li>
               
               <li>
-                Built with hooks, functional components and libraries like
-                Material UI and Boostrap
+              I also participated in every one of the product feature development from ideation through development and improvement using Angular.
               </li>
               <li>
-                Users have full access to design courses when Authenticated
+              Built extensive test coverage for all new features with Cypress.
               </li>
             </ul>
             <span className="project-links">
-              <a target="_blank" href="https://learn-design.netlify.app/">
+              <a target="_blank" href="https://quabbly.com/">
                 Live
               </a>
-              <a
-                target="_blank"
-                href="https://github.com/adun-dotcom/e-learning-design-app"
-              >
-                Repo
-              </a>
+            
             </span>
           </div>
         </div>

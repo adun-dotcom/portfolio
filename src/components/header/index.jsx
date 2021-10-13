@@ -12,7 +12,7 @@ function Nav(){
           <a
             className="resume-btn"
             target="_blank"
-            href="https://docs.google.com/document/d/1J2lZ0Opk03l7Ys45qkhADNXcT26KsLRWgvqV306AMYk/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1f_syEErHOxD539cko755E8y-N3U-PBk_cDN3XhoNsOE/edit?usp=sharing"
           >
             Resume
           </a>
