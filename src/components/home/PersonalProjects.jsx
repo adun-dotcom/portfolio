@@ -78,7 +78,7 @@ function PersonalProjects() {
             </span>
           </div>
         </div>
-        <div data-aos="fade-up" className="work-img mb-5">
+        {/* <div data-aos="fade-up" className="work-img mb-5">
           <img src={Learn} alt="" />
           <div>
             <h4>Learn Design</h4>
@@ -114,7 +114,7 @@ function PersonalProjects() {
               </a>
             </span>
           </div>
-        </div>
+        </div> */}
 
       </div>
     )

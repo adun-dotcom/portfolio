@@ -5,6 +5,7 @@ import 'aos/dist/aos.css'
 import PersonalProjects from './PersonalProjects'
 import CloneProject from './CloneProject'
 import Quabbly from '../../assets/quabbly.png'
+import GoodactionImg from '../../assets/goodaction.png'
 import ClientProject from './ClientProject'
 
 function MyWork() {
@@ -41,6 +42,33 @@ function MyWork() {
             </ul>
             <span className="project-links">
               <a target="_blank" href="https://quabbly.com/">
+                Live
+              </a>
+            
+            </span>
+          </div>
+        </div>
+
+        <div data-aos="fade-up" className="work-img mb-5">
+          <img src={GoodactionImg} alt="" />
+          <div>
+            <h4>Goodaction</h4>
+            <p>
+              Technologies Used: <span> React</span>, <span> Styled Components</span>, <span>Material UI</span>
+             
+            </p>
+            <ul>
+              <li>
+              I worked on this project being the sole frontend developer brainstorming with the UI/UX designer on the idea of color schemes and best user experience. 
+              </li>
+              
+              <li>
+              I built this solely on react and styled components.
+              </li>
+             
+            </ul>
+            <span className="project-links">
+              <a target="_blank" href="https://dev.goodaction.com/">
                 Live
               </a>
             
